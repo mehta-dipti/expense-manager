@@ -126,6 +126,24 @@
   }
 }
 
+.transactions-list{
+    overflow-y: scroll;
+    height: 400px;
+     box-shadow: 0 0 10px #77777775;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+
+
 .search {
   .searchbar-icon {
     cursor: pointer;
